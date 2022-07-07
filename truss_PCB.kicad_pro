@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 4.0,
+          "width": 1.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -56,8 +56,11 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|104140001|108355001|1cbc8316-d5a4-4bb5-8b77-7dfc6b446fe0|fa3ceb5e-2b6e-4f38-a907-464e7901d1e1",
         "courtyards_overlap|104140001|108355001|fa3ceb5e-2b6e-4f38-a907-464e7901d1e1|1cbc8316-d5a4-4bb5-8b77-7dfc6b446fe0",
+        "courtyards_overlap|120335001|121610001|6a09cc18-ee79-4c3f-85ea-9552d35e1f76|cadd7a02-02bf-4ca1-92b1-bdaf8856abb9",
         "courtyards_overlap|120335001|121610001|cadd7a02-02bf-4ca1-92b1-bdaf8856abb9|6a09cc18-ee79-4c3f-85ea-9552d35e1f76",
+        "courtyards_overlap|123510001|121610001|6a09cc18-ee79-4c3f-85ea-9552d35e1f76|b37f0314-5de5-4617-bb4f-8107267738f2",
         "courtyards_overlap|123510001|121610001|b37f0314-5de5-4617-bb4f-8107267738f2|6a09cc18-ee79-4c3f-85ea-9552d35e1f76",
         "courtyards_overlap|126685001|121610001|62571a7e-626c-4614-8e67-a4221ba5b5b0|6a09cc18-ee79-4c3f-85ea-9552d35e1f76"
       ],
@@ -654,7 +657,6 @@
           "Net-(JP13-Pad2)",
           "Net-(JP16-Pad2)",
           "Net-(JP19-Pad2)",
-          "Net-(JP25-Pad2)",
           "Net-(JP4-Pad2)",
           "SCK"
         ],

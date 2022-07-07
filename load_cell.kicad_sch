@@ -1373,7 +1373,7 @@
     (pin "2" (uuid e5588e62-caec-4581-8753-afa8055836e7))
   )
 
-  (symbol (lib_id "000_Connectors_Immo:Jumper_2_Open_small") (at 173.99 80.645 90) (unit 1)
+  (symbol (lib_id "000_Connectors_Immo:Jumper_2_Bridge_Small") (at 173.99 80.645 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a8827c73-6273-4eea-a0b3-2ac1aef7965a)
     (property "Reference" "JP25" (id 0) (at 176.53 79.6903 90)
@@ -1382,7 +1382,7 @@
     (property "Value" "SampleRate" (id 1) (at 176.53 82.2303 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 179.705 80.01 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" (id 2) (at 179.705 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 180.975 80.645 0)

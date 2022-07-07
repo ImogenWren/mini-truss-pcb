@@ -3331,7 +3331,7 @@
       (reference "JP24") (unit 1) (value "INB GND") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_DoubleJoined_SMALL")
     )
     (path "/710ac6f4-18a5-4471-8457-9bbaa5b056af/a8827c73-6273-4eea-a0b3-2ac1aef7965a"
-      (reference "JP25") (unit 1) (value "SampleRate") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+      (reference "JP25") (unit 1) (value "SampleRate") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/ba26ee21-6561-4a71-81c1-93b0e4e983d4/5fcd981f-7df1-42aa-9a8e-28e315530f3a"
       (reference "JP26") (unit 1) (value "V_USB") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
