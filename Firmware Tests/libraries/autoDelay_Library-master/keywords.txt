@@ -1,0 +1,23 @@
+autoDelay	KEYWORD1
+
+setDelayTime	KEYWORD2
+delayScript	KEYWORD2
+millisDelay	KEYWORD2
+microsDelay	KEYWORD2
+secondsDelay 	KEYWORD2
+minutesDelay	KEYWORD2
+
+millisDelayEvent	KEYWORD2
+microsDelayEvent	KEYWORD2
+secondsDelayEvent	KEYWORD2
+minutesDelayEvent		KEYWORD2
+
+startDelay	KEYWORD2
+startIndefinate	KEYWORD2
+stopDelay	KEYWORD2
+pauseDelay	KEYWORD2
+restartDelay	KEYWORD2
+addCounter	KEYWORD2
+
+globalDelay	KEYWORD2
+delayEvent	KEYWORD2
