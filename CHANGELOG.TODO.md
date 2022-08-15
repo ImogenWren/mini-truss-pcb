@@ -8,7 +8,11 @@
 3. Add spare voltage pins for devwork and testing
 4. GND to connecter housing?
 5. GND to mounting holes? Nope dont like - introduces ground loop
+6. Add labels to headers
 
+
+#TODO Additional connector board req
+- Breakout board for quick connection of individual sensors to 37 pin connector
 
 # Servo Notes
 
