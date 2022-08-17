@@ -422,6 +422,8 @@ void setup() {
   pinMode(OUTPUT_ENABLE, OUTPUT);
 
   digitalWrite(OUTPUT_ENABLE, HIGH);
+  led_setup();
+  led_poweron();
 
   previousTime = millis();
 
@@ -652,4 +654,34 @@ void resetGauges(){
   
   tareAll();
 
+}
+
+
+
+#define LED_BLUE LED_ONE
+#define LED_GREEN LED_ELEVEN
+#define LED_YELLOW LED_TEN
+#define LED_RED LED_NINE
+
+
+
+char led_array[4] = {LED_BLUE, LED_GREEN, LED_YELLOW, LED_RED};
+
+void led_setup() {
+  for (int i = 0; i < 4; i++) {
+    pinMode(led_array[i], OUTPUT);
+  }
+}
+
+void led_poweron() {
+  for (int j = 0; j < 3; j++) {
+    for (int i = 0; i < 4; i++) {
+      digitalWrite(led_array[i], HIGH);
+      delay(70);
+    }
+    for (int i = 0; i < 4; i++) {
+      digitalWrite(led_array[i], LOW);
+      delay(70);
+    }
+  }
 }
