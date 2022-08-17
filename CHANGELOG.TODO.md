@@ -9,6 +9,10 @@
 4. GND to connecter housing?
 5. GND to mounting holes? Nope dont like - introduces ground loop
 6. Add labels to headers
+7. Change reference to 680uF cap
+8. route LEDs to connector
+9. change minimelf to reflect negative
+10. add dot to IC footprint
 
 
 #TODO Additional connector board req
