@@ -3,7 +3,7 @@
 
 #TODO PCB changes for V2:
 
-1. Add GND Test points / additional pins
+1. Add GND Test points / additional pins 
 2. Pull Down Resistors on logic level converter spare pins
 3. Add spare voltage pins for devwork and testing
 4. GND to connecter housing?
