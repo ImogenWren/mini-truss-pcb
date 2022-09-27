@@ -258,14 +258,14 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x01_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at 0 2.54 0)
+    (symbol "Connector:Conn_01x03_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x01_Male" (id 1) (at 0 -2.54 0)
+      (property "Value" "Conn_01x03_Male" (id 1) (at 2.54 -4.191 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (id 2) (at 0 0 0)
+      (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 3.429 -6.985 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "~" (id 3) (at 0 0 0)
@@ -274,13 +274,21 @@
       (property "ki_keywords" "connector" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "Connector*:*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x01_Male_1_1"
+      (symbol "Conn_01x03_Male_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
         (polyline
           (pts
             (xy 1.27 0)
@@ -289,13 +297,37 @@
           (stroke (width 0.1524) (type default) (color 0 0 0 0))
           (fill (type none))
         )
+        (polyline
+          (pts
+            (xy 1.27 2.54)
+            (xy 0.8636 2.54)
+          )
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
         (rectangle (start 0.8636 0.127) (end 0 -0.127)
           (stroke (width 0.1524) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (pin passive line (at 5.08 0 180) (length 3.81)
+        (rectangle (start 0.8636 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 3.81)
           (name "Pin_1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2153,7 +2185,7 @@
     (pin "1" (uuid 2171ed92-72dd-48cf-bd50-13d6ab6d61a1))
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Male") (at 231.14 162.56 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x03_Male") (at 231.14 162.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 14e50a82-f75d-4fcb-ad4e-3c36814d2442)
     (property "Reference" "J3" (id 0) (at 232.41 161.2899 0)
@@ -2162,13 +2194,15 @@
     (property "Value" "Servo" (id 1) (at 232.41 163.8299 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 231.14 162.56 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 227.711 169.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 231.14 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ad7a4def-a595-4dd5-8879-8a94cbfc2215))
+    (pin "2" (uuid ac512b03-6d2a-45e2-9198-65231c14cf85))
+    (pin "3" (uuid e4389f9d-72a6-47c7-b88b-ffa197e7cd47))
   )
 
   (symbol (lib_id "Connector:DB37_Female_MountingHoles") (at 276.225 86.995 0) (unit 1)
@@ -3160,23 +3194,23 @@
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/9d0fa503-b416-4bc1-a3ae-75a800664e6d"
       (reference "D2") (unit 1) (value "BZV55B9V1") (footprint "Diode_SMD:D_MiniMELF")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/1778d3a6-bace-44ff-b226-03c631eedf05"
-      (reference "D3") (unit 1) (value "12V Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/4c37b896-33bd-4871-8fb1-55f67478f1bc"
+      (reference "D3") (unit 1) (value "3v3 MCU Power (blu)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/a76338dd-38ac-4367-b51a-19c6e020da56"
       (reference "D4") (unit 1) (value "1N5821") (footprint "Diode_SMD:D_SMA")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/6836696c-7a6e-4837-b2ca-003ce78f3a71"
-      (reference "D5") (unit 1) (value "6v Servo Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/60c19c44-b0f8-4c15-b1fd-f8b63483a31e"
+      (reference "D5") (unit 1) (value "6v Servo Power (grn)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/b0d97af1-709c-4944-ab52-2f8634855238"
-      (reference "D6") (unit 1) (value "10V Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/5689320f-0734-413c-a4ec-4ec0c7b735b2"
+      (reference "D6") (unit 1) (value "10V Power (orng)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/4d57fa7d-1b13-4e9d-9e55-e3a5cb57dad7"
-      (reference "D7") (unit 1) (value "5v MCU Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/d59fa11c-7126-458e-a559-75be258dfe78"
+      (reference "D7") (unit 1) (value "5v MCU Power (yllw)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/97f4cb04-730f-4dba-b564-05ca06b23805"
-      (reference "D8") (unit 1) (value "3v3 MCU Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/70dff86c-3471-46b6-bc2b-9ba0f3f8fe5d"
+      (reference "D8") (unit 1) (value "12V Power (red)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/ba26ee21-6561-4a71-81c1-93b0e4e983d4/4144bd5a-b19f-4bda-9741-57670c9b0841"
       (reference "D9") (unit 1) (value "LED") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -3278,7 +3312,7 @@
       (reference "J2") (unit 1) (value "LimitSwitch") (footprint "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical")
     )
     (path "/14e50a82-f75d-4fcb-ad4e-3c36814d2442"
-      (reference "J3") (unit 1) (value "Servo") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "Servo") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/1ff63a68-ee92-4626-a1e8-11178b819d19"
       (reference "J4") (unit 1) (value "Truss Connection") (footprint "Connector_Dsub:DSUB-37_Female_Vertical_P2.77x2.84mm_MountingHoles")
@@ -3601,20 +3635,20 @@
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/2abe81cb-a6dc-4a54-a5c3-e6edd6b51908"
       (reference "R38") (unit 1) (value "330r") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/f63dcf07-c9b4-453f-8c30-50d1f069ab0f"
-      (reference "R39") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/2b853e73-dfe6-4a96-bfa7-26c7b992eaa1"
+      (reference "R39") (unit 1) (value "330r") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/fa1aeb6d-fed2-4355-9cd8-0afb49942f2c"
-      (reference "R40") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/d74abd69-ca97-418e-9496-b64fa6d1acda"
+      (reference "R40") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/ce358d1a-0e0c-4441-8371-c0b92445399e"
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/19193437-c06a-480c-b1cd-bc034912a3cc"
       (reference "R41") (unit 1) (value "8k2") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/26ae8e9b-b802-46a4-8146-c068f053a284"
-      (reference "R42") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/474dbc44-c3c3-4b6a-8dca-f455d1c9e0de"
+      (reference "R42") (unit 1) (value "8k2") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/22c6fac0-c8a9-47d7-8f29-c9a638824719"
-      (reference "R43") (unit 1) (value "330r") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/18fd7230-9635-47aa-9d63-57ae6f48d97f"
+      (reference "R43") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ba26ee21-6561-4a71-81c1-93b0e4e983d4/4714d7f5-82e6-4cfa-b041-2201f6400764"
       (reference "R44") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
