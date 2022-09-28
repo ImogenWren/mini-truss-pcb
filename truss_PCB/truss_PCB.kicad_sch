@@ -3195,22 +3195,22 @@
       (reference "D2") (unit 1) (value "BZV55B9V1") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/4c37b896-33bd-4871-8fb1-55f67478f1bc"
-      (reference "D3") (unit 1) (value "3v3 MCU Power (blu)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D3") (unit 1) (value "3v3 MCU Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/a76338dd-38ac-4367-b51a-19c6e020da56"
       (reference "D4") (unit 1) (value "1N5821") (footprint "Diode_SMD:D_SMA")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/60c19c44-b0f8-4c15-b1fd-f8b63483a31e"
-      (reference "D5") (unit 1) (value "6v Servo Power (grn)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D5") (unit 1) (value "6v Servo Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/5689320f-0734-413c-a4ec-4ec0c7b735b2"
-      (reference "D6") (unit 1) (value "10V Power (orng)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D6") (unit 1) (value "10V Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/d59fa11c-7126-458e-a559-75be258dfe78"
-      (reference "D7") (unit 1) (value "5v MCU Power (yllw)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D7") (unit 1) (value "5v MCU Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/c34a27f7-e16c-48f3-87ee-04b6d0a7d0a9/70dff86c-3471-46b6-bc2b-9ba0f3f8fe5d"
-      (reference "D8") (unit 1) (value "12V Power (red)") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D8") (unit 1) (value "12V Power") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/ba26ee21-6561-4a71-81c1-93b0e4e983d4/4144bd5a-b19f-4bda-9741-57670c9b0841"
       (reference "D9") (unit 1) (value "LED") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
