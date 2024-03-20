@@ -7,7 +7,7 @@ Designator,Qnty,Comment,Cmp name,Footprint,Description,JLCPCB Part #,Notes
 ,,,,,,,
 "D2, ",1,BZV55B9V1,BZV55B9V1,Diode_SMD:D_MiniMELF,"9.1V, 500mW, 2%, Zener diode, MiniMELF",C545367,
 ,,,,,,,
-"D3, D1",2,LED Blue,LED_0805_smd,Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Light emitting diode,C138555,
+"D3, D1",2,LED Blue,LED_0805_smd,Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Light emitting diode,C84259,
 ,,,,,,,
 "D4, ",1,1N5821,1N5821,Diode_SMD:D_SMA,"30V 3A Schottky Barrier Rectifier Diode, DO-201AD",C22452,
 ,,,,,,,
