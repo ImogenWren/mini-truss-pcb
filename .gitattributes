@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
+# to change language of repo from Javascript to Python
+    *.js linguist-language=KiCAD
 * text=auto
